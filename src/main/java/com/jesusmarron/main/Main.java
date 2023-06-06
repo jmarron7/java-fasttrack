@@ -1,15 +1,18 @@
 package com.jesusmarron.main;
 
+import com.jesusmarron.main.lemonadestand.LemonJuice;
+import com.jesusmarron.main.lemonadestand.Lemonade;
+import com.jesusmarron.main.lemonadestand.Sugar;
 import com.jesusmarron.main.lemonadestand.Water;
 
 public class Main {
     public static void main(String[] args) {
 
-        Water water1 = new Water(5, "cups");
+        LemonJuice lemonJuice = new LemonJuice(5, "ounces");
+        Water water = new Water(3, "cups");
+        Sugar sugar = new Sugar(12, "tsp");
 
-        water1.drink(2);
-
-        System.out.println(water1);
+        Lemonade lemonade = new Lemonade(lemonJuice, water, sugar);
     }
 
 }
