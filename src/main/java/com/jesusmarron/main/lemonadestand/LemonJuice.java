@@ -1,8 +1,8 @@
 package com.jesusmarron.main.lemonadestand;
 
 public class LemonJuice {
-    int amount;
-    String unit;
+    private int amount;
+    private String unit;
 
     public LemonJuice(int amount, String unit) {
         this.amount = amount;

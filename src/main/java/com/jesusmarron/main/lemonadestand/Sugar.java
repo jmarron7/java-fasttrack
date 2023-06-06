@@ -1,8 +1,8 @@
 package com.jesusmarron.main.lemonadestand;
 
 public class Sugar {
-    int amount;
-    String unit;
+    private int amount;
+    private String unit;
 
     public Sugar(int amount, String unit) {
         this.amount = amount;
