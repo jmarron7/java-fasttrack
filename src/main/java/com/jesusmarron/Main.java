@@ -26,7 +26,7 @@ public class Main {
 
         int[] numbers = new int[] {1, 2, 3, 4, 5};
 
-        int max = (int) Math.random() * 10;
+        int max = (int) (Math.random() * 10) + 1;
 
         int currentNumber = 6;
 
