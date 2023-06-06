@@ -23,24 +23,29 @@ public class Main {
 //        if (sugar <= maxSugar) {
 //            totalSugarInGlass += sugar;
 //        }
+//
+//        int[] numbers = new int[] {1, 2, 3, 4, 5};
+//
+//        int max = (int) (Math.random() * 10) + 1;
+//
+//        int currentNumber = 6;
+//
+//        for (int i = 0; i < max; i++, currentNumber++) {
+//            int temp[] = new int[numbers.length + 1];
+//            for (int j = 0; j < numbers.length; j++) {
+//                temp[j] = numbers[j];
+//            }
+//            temp[temp.length - 1] = currentNumber;
+//            numbers = temp;
+//        }
+//
+//        for (int i = 0; i < numbers.length; i++) {
+//            System.out.println(numbers[i]);
+//        }
+        System.out.println(add(1,5));
+    }
 
-        int[] numbers = new int[] {1, 2, 3, 4, 5};
-
-        int max = (int) (Math.random() * 10) + 1;
-
-        int currentNumber = 6;
-
-        for (int i = 0; i < max; i++, currentNumber++) {
-            int temp[] = new int[numbers.length + 1];
-            for (int j = 0; j < numbers.length; j++) {
-                temp[j] = numbers[j];
-            }
-            temp[temp.length - 1] = currentNumber;
-            numbers = temp;
-        }
-
-        for (int i = 0; i < numbers.length; i++) {
-            System.out.println(numbers[i]);
-        }
+    public static int add(int a, int b) {
+        return a + b;
     }
 }
