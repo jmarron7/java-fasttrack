@@ -1,4 +1,4 @@
-package com.jesusmarron;
+package com.jesusmarron.main;
 
 public class Main {
     public static void main(String[] args) {

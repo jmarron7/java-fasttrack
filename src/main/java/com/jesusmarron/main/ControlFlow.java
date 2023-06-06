@@ -1,4 +1,4 @@
-package com.jesusmarron;
+package com.jesusmarron.main;
 
 public class ControlFlow {
     public static void main(String[] args) {

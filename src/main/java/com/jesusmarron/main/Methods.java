@@ -1,4 +1,4 @@
-package com.jesusmarron;
+package com.jesusmarron.main;
 
 public class Methods {
     public static void main(String[] args) {
